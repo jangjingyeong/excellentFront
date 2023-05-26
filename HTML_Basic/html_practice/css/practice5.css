@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+li {
+    margin: 10px;
+}
+p {
+    font-weight: bolder;
+}
+fieldset legend {
+    font-weight: bold;
+}
+input[type=text] ,[type=email], [type=tel] {
+    width: 300px;
+}
+
+#shipping label {
+    width: 80px;
+    float: left;
+    text-align: left;
+}
+#submit {
+    display: flex;  
+    flex-derection: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin-top: 20px;
+}
+#submit>input {
+    width: 150px; 
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    box-shadow: 1px 1px 1px #ccc;
+}
+input[type=number] {
+    width: 30px;
+    margin-left:10px;
+}
